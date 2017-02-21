@@ -1,0 +1,27 @@
+table {
+  text-align: left;
+}
+
+td {
+  width: 110px;
+}
+
+th {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.even {
+  background-color: rgba(240,216,216,1);
+}
+ .odd {
+   background-color: rgba(48,72,96,1);
+   color: rgba(255,255,255,1);
+ }
+
+ td:hover {
+     background-color: rgba(168,192,216,1);
+     color: rgba(48,72,72,1);
+ }
+
+ /* color pallette adapted from http://www.colourlovers.com/palette/155071/Rei_Ayanami */
